@@ -238,16 +238,26 @@ They need to use minimum number of rats (as PETA are always running after them) 
 Can you find out a methodology to use minimum number of rats to find out the defective?
 Hint: the answer is less than 10.
 
-**7**
+binary numbers......
 
+Number the drug 1 to 100 and write the number in binary format.
 
+drug 1 = 00000001 (10 digit binary)
 
+drug 2 = 00000010
 
+drug 50 = 00110010
 
+drug 100 = 01100100
 
+Now take 8 rats and number them 1 to 8, now let prisoner 1 take a sip from every rats that has a 1 in its least significant bit.
+Let rat 8 take a every drug with a 1 in its most significant bit. etc.
 
+rat = 8 7 6 5 4 3 2 1
 
-
+drug 96 = 0 1 1 0 0 0 0 0
+For instance, drug no. 96 would be  7 and 6. That way if drug no. 96 was the contain bombshell, only those prisoners would die.
+ so , answer is 8;
 
 
 
